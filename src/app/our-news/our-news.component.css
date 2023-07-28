@@ -1,0 +1,85 @@
+.news {
+    /* display: grid;
+    grid-template-columns: repeat(2,35%);
+  grid-gap : 10px 50px ; */
+  /* justify-content: space-around; */
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+.last-news{
+   
+    padding-top: 25px;
+  
+}
+.last-news-heading{
+   
+    align-items: center;
+    width: 100%;
+height: 100px;
+
+}
+.item{
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 1px 6px #00000029;
+opacity: 1;
+margin-bottom: 20px;
+margin-right: 20px;
+width: 554px !important;
+}
+.more{
+    color:#2667b1 ;
+    background-color: #ffffff;
+    font-size: 24px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 24px/1px var(--unnamed-font-family-roboto);
+letter-spacing: var(--unnamed-character-spacing-0);
+text-align: left;
+font: normal normal normal 24px/1px Roboto;
+letter-spacing: 0px;
+border: 2px solid #2667B1;
+margin-left: 72px;
+margin-top:20px;
+padding: 25px;
+margin-bottom: 20px;
+}
+.more:hover {
+background-color:#2667b1 ;
+color: #FFFFFF;
+}
+
+.img{
+   padding:  0px 15px 0px 0px !important;
+}
+
+h3{
+    font-size: 18px;width: 290px; font: var(--unnamed-font-style-normal) normal medium var(--unnamed-font-size-18)/var(--unnamed-line-spacing-56) var(--unnamed-font-family-roboto);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-000000);
+text-align: left;
+font: normal normal medium 18px/56px Roboto;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+margin-top: 15px;
+}
+p{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-28) var(--unnamed-font-family-roboto);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-000000);
+text-align: left;
+font: normal normal normal 18px/28px Roboto;
+letter-spacing: 0px;
+color: #000000;
+opacity: 0.75;width: 358px;
+height: 80px;
+margin-bottom: 9px;
+}
+
+a{
+    text-decoration: underline !important;
+    color: #2667B1;
+    margin-bottom: 16px;
+
+
+}

@@ -1,0 +1,147 @@
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-end;
+}
+footer {
+  background-color: #121315;
+  color: #a7a7a7;
+  font-size: 16px;
+}
+footer * {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+.row {
+  padding: 1em 1em;
+}
+.row.primary {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  align-items: stretch;
+}
+.column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2em;
+  min-height: 15em;
+}
+h3 {
+  width: 100%;
+  text-align: left;
+  color: white;
+  font-size: 1.4em;
+  white-space: nowrap;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+li:not(:first-child) {
+  margin-top: 0.8em;
+}
+ul li a {
+  color: #a7a7a7;
+  text-decoration: none;
+}
+ul li a:hover {
+  color: #2a8ded;
+}
+.about p {
+  text-align: justify;
+  line-height: 2;
+  margin: 0;
+}
+/* input, */
+/* button {
+  font-size: 1em;
+  padding: 1em;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 5px;
+} */
+
+div.social {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2.4em;
+  flex-direction: row;
+  margin-top: 0.5em;
+}
+.social i {
+  color: #bac6d9;
+}
+
+.copyright {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-menu{
+  
+  margin: 40px 0px;
+
+}
+.footer-menu a{
+  color: #cfd2d6;
+  padding: 6px;
+  margin: 40px 0px;
+  text-decoration: none;
+}
+.footer-menu a:hover{
+  color: #27bcda;
+}
+.copyright p {
+  font-size: 0.9em;
+  text-align: right;
+  margin: 40px 0px;
+}
+@media screen and (max-width: 850px) {
+  .row.primary {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+.logo{
+  padding-top: 50px;
+}
+
+.subscribe-button{
+  width: 203px;
+height: 56px;
+border-radius: 5px;
+background: #2667B1 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+input{
+  border-radius: 5px;
+  margin: 15px 0px;
+  width:92% ;
+height: 64px;
+border: 1px solid #2667B1 !important;
+opacity: 1;
+font-size: 1em;
+  background-color: #111111;
+}
+
+hr{
+  background-color: #FFFFFF;
+    padding: 1px;
+}
+
+.social img{
+  width: 38px;
+height: 38px;
+}

@@ -1,0 +1,8 @@
+
+  .bg-primary-400 {
+    opacity:0.7 ;
+    background-color: rgb(126 59 86 / var(--tw-bg-opacity));
+  }
+  .br-25{
+border-radius: 25px;
+  }
